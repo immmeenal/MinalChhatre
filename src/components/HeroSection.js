@@ -11,8 +11,8 @@ const HeroSection = () => {
         <a href="#github">💻</a>
       </div>
       <div className="hero-content">
-        <h1>John Smith 👋</h1>
-        <h2>Visual Designer</h2>
+        <h1>Minal Chhatre 👋</h1>
+        <h2>Software Developer</h2>
         <p>
           I'm a creative designer based in New York, and I'm very passionate and
           dedicated to my work.
