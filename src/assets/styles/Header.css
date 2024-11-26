@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
+  p {
+    font-weight: 300;
+  }
+  
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f3ecec;
+  }
+  
+  .nav-list a:hover {
+    color: #007bff;
+  }
+
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
