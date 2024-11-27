@@ -56,10 +56,12 @@ const HeroSection = () => {
           Women Hackathon’23. I also volunteer as a teaching assistant at Bhumi
           NGO India, helping children with mathematics.
         </p>
-        <button className="btn-say-hello">
-          Say Hello
-          <img src={direct} alt="Hello Icon" className="button-icon" />
-        </button>
+        <a href="https://www.instagram.com/i_mmeenal/?hl=en">
+          <button className="btn-say-hello">
+            Say Hello
+            <img src={direct} alt="Hello Icon" className="button-icon" />
+          </button>
+        </a>
       </div>
       <div className="profile-picture">
         <img src={MinalImage} alt="Minal Chhatre" />
