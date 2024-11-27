@@ -4,6 +4,10 @@ import "../assets/styles/Header.css";
 const Header = () => {
   return (
     <header className="header">
+      {/* Brand Name on the left */}
+      <div className="brand-name">Minal</div>
+
+      {/* Navigation menu on the right */}
       <nav>
         <ul className="nav-list">
           <li>
