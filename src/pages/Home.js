@@ -9,13 +9,15 @@ function Home() {
   return (
     <div className="home">
       <Header />
+
       {/* Sections */}
-      <section id="hero">
+      <section id="home">
         <HeroSection />
       </section>
       <section id="about">
         <About />
       </section>
+
       <Footer />
     </div>
   );
