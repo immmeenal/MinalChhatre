@@ -5,6 +5,7 @@ import linkedin from "../assets/images/linkedin.png";
 import github from "../assets/images/github.png";
 import gmail from "../assets/images/gmail.png";
 import direct from "../assets/images/direct.png";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   // State to manage the visibility of the popup
@@ -63,9 +64,11 @@ const HeroSection = () => {
           </button>
         </a>
         <div className="scroll-down">
-          <p>
-            Scroll down <i class="arrow down"></i>
-          </p>
+          <Link to="about" smooth={true} duration={700}>
+            <p>
+              Scroll down <i class="arrow down"></i>
+            </p>
+          </Link>
         </div>
       </div>
       <div className="profile-picture">

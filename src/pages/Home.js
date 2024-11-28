@@ -11,10 +11,10 @@ function Home() {
       <Header />
 
       {/* Sections */}
-      <section id="home">
+      <section id="home" smooth={true} duration={500}>
         <HeroSection />
       </section>
-      <section id="about">
+      <section id="about" smooth={true} duration={500}>
         <About />
       </section>
 
