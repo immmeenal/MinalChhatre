@@ -1,8 +1,13 @@
 .footer {
+    position: fixed;
+    bottom: 0; /* Sticks to the bottom */
+    left: 0;
+    width: 100%; /* Full width */
     text-align: center;
     padding: 20px;
-    background-color: transparent; 
+    background-color: #f9f9f9; 
     color: white;
+    z-index: 1000; /* Stays above other elements */
   }
   
   .footer p {

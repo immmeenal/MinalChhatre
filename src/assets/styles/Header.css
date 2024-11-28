@@ -11,12 +11,16 @@ p {
 }
 
 .header {
+  position: fixed;
+  top: 0; /* Sticks to the top */
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px; /* Add horizontal padding */
   width: 100%;
   box-sizing: border-box; /* Ensures padding doesn't overflow */
+  z-index: 1000; /* Stays above other elements */
 }
 
 .header .brand-name {

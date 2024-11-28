@@ -62,6 +62,11 @@ const HeroSection = () => {
             <img src={direct} alt="Hello Icon" className="button-icon" />
           </button>
         </a>
+        <div className="scroll-down">
+          <p>
+            Scroll down <i class="arrow down"></i>
+          </p>
+        </div>
       </div>
       <div className="profile-picture">
         <img src={MinalImage} alt="Minal Chhatre" />
