@@ -19,7 +19,10 @@ const Education = () => {
 
   return (
     <div className="edu">
-      <div className="education-section">Education</div>
+      <div className="education-section">
+        <span className="icon">🎓</span> Education
+        <span className="icon">💼</span> Experience
+      </div>
       <div className="timeline">
         {/* Central timeline line */}
         <div className="timeline-line"></div>
