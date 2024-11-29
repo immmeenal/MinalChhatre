@@ -64,7 +64,7 @@ const HeroSection = () => {
           </button>
         </a>
         <div className="scroll-down">
-          <Link to="about" smooth={true} duration={700}>
+          <Link to="Education" smooth={true} duration={700}>
             <p>
               Scroll down <i class="arrow down"></i>
             </p>

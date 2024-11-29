@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import "../assets/styles/Home.css";
 import Footer from "../components/Footer";
-import About from "../components/About";
+import Education from "../components/Education";
 
 function Home() {
   return (
@@ -14,8 +14,8 @@ function Home() {
       <section id="home" smooth={true} duration={500}>
         <HeroSection />
       </section>
-      <section id="about" smooth={true} duration={500}>
-        <About />
+      <section id="Education" smooth={true} duration={500}>
+        <Education />
       </section>
 
       <Footer />

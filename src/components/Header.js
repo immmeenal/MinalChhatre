@@ -13,12 +13,12 @@ const Header = () => {
         <ul className="nav-list">
           <li>
             <Link to="home" smooth={true} duration={700}>
-              Home
+              About
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={700}>
-              About
+            <Link to="Education" smooth={true} duration={700}>
+              Education
             </Link>
           </li>
           <li>

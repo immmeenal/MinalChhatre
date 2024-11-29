@@ -1,0 +1,108 @@
+/* General styling */
+body {
+  font-family: 'Sour Gummy', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+.edu{
+  background: #f9f9f9;
+}
+
+
+.education-section {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0; /* Reduced padding for less space */
+}
+
+/* Central timeline line */
+.timeline-line {
+  position: absolute;
+  width: 3px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Timeline item */
+.timeline-item {
+  position: relative;
+  margin: 20px 0; /* Reduced margin for less vertical space */
+  display: flex;
+  align-items: center;
+}
+
+.timeline-item.right {
+  flex-direction: row-reverse;
+}
+
+.timeline-item.left {
+  flex-direction: row;
+}
+
+/* Timeline dot alignment */
+.timeline-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #4caf50;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* Content box */
+.timeline-content {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  z-index: 2; /* Ensures content is above the line */
+  /* Default margin settings for left content box */
+  margin-left: 20px;  /* Moves left content box closer to the timeline */
+  margin-right: 20px; /* Moves right content box closer to the timeline */
+}
+
+/* Move left content box closer to the right side of the timeline */
+.timeline-item.left .timeline-content {
+  margin-right: -70%;  /* Adjusts the left box to be closer to the timeline */
+}
+
+/* Move right content box closer to the left side of the timeline */
+.timeline-item.right .timeline-content {
+  margin-left: -70%; /* Adjusts the right box to be closer to the timeline */
+}
+
+.timeline-content h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.timeline-content p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}

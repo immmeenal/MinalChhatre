@@ -1,3 +1,14 @@
+body {
+  font-family: 'Sour Gummy', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
 .footer {
     position: fixed;
     bottom: 0; /* Sticks to the bottom */
