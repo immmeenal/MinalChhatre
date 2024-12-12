@@ -4,7 +4,7 @@ import "../assets/styles/Education.css";
 const Education = () => {
   const educationData = [
     {
-      title: "Btech in Information ",
+      title: "Btech in Information Technology",
       institute: "MKSSS's Cummins College of Engineering Pune, India",
       date: "2022 - 2025 (Present)",
       grade: "8.0/10.0",
@@ -21,7 +21,6 @@ const Education = () => {
     <div className="edu">
       <div className="education-section">
         <span className="icon">🎓</span> Education
-        <span className="icon">💼</span> Experience
       </div>
       <div className="timeline">
         {/* Central timeline line */}

@@ -22,18 +22,14 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={700}>
-              Skills
+            <Link to="Experience" smooth={true} duration={700}>
+              Experience
             </Link>
           </li>
           <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <Link to="Projects" smooth={true} duration={700}>
+              Projects
+            </Link>
           </li>
         </ul>
       </nav>

@@ -96,7 +96,7 @@ p {
 
 /* Move left content box closer to the right side of the timeline */
 .timeline-item.left .timeline-content {
-  margin-right: -70%;  /* Adjusts the left box to be closer to the timeline */
+  margin-right: 58%;  /* Adjusts the left box to be closer to the timeline */
 }
 
 /* Move right content box closer to the left side of the timeline */
@@ -114,4 +114,13 @@ p {
   margin: 5px 0;
   font-size: 14px;
   color: #666;
+  text-align:justify; /* Ensures text is aligned to the left */
 }
+
+.timeline-content h3,
+.timeline-content p:first-of-type, 
+.timeline-content p:nth-of-type(2),
+.timeline-content p:nth-of-type(3) {
+  text-align: center; /* Keeps title, institute, date, and location centered */
+}
+
